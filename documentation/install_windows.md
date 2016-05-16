@@ -42,6 +42,11 @@ These instructions were tested on Windows 2012 R2 IIS 8, but should work more or
 		
 ## Install Mapigntier2
 
+If you have multiple versions of PHP installed, where you have php, you may need to give the full path to php exe
+that IIS uses.
+
+e.g. "C:\Program Files (x86)\PHP\v5.6\php"  instead of php
+
 1. *Download* zip and *extract* to a web server folder
 1. Open **.env.example** in an editor such as notepad++ and saves as **.env**  as .env. (this is nneeded since win windows files start with . sometimes yield error during copy.
 1. create a postgres database and set your local configuration on **.env**      
